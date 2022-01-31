@@ -1,0 +1,74 @@
+body {
+	background: darkblue;
+	margin: 0;
+	font-family: cursive;
+}
+
+.square{
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	background: yellow;
+	float: left;
+	border-radius: 10%;
+	margin: 1.50%;
+	
+}
+#container{
+	margin: 0 auto;
+	max-width: 600px;	
+}
+
+h1 {
+	color: whitesmoke;
+	text-align: center;
+}
+
+#message{
+	color: whitesmoke;
+	text-align: center;
+}
+
+#barra{
+	background: linear-gradient(-45deg, rgb(198, 223, 55) 50%,#0b240d 50%);
+	padding: 20px;
+}
+
+#titulo {
+	padding: 5px;
+	animation: BGcolorChanging-5colors 8s linear infinite alternate both;
+}
+@keyframes BGcolorChanging-5colors {
+	0% {
+		background: greenyellow;
+	}
+	25% {
+		background: indianred;
+	}
+	50% {
+		background: rgb(5, 6, 17);
+	}
+	75% {
+		background: rgb(77, 26, 100);
+	}
+	100% {
+		background: rgb(92, 205, 171);
+	}
+}
+
+#colorDisplay {
+    display: block;
+    font-size: 180%;
+  }
+
+#message{
+    color:black;
+    font-size: medium;
+    display: inline-block;
+    width: 30%;
+}
+@media (min-width: 600px) {
+	.container {
+	  width: 50%;
+	}
+  }
